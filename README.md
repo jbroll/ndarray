@@ -2,6 +2,9 @@ ndarray
 =======
 Multidimensional arrays for JavaScript. 
 
+This is a fork which removes the refernece to node buffer types.  This makes inclusion of this code in the
+browser via browserify rather smaller.
+
 Introduction
 ============
 `ndarrays` provide higher dimensional views of 1D arrays.  For example, here is how you can turn a length 4 typed array into an nd-array:
